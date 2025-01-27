@@ -5,7 +5,7 @@ pip install -r requirements.txt
 assistant.py dosyasında bulunuyor
 
 ## Örnek POST request
-http://127.0.0.1/check
+http://127.0.0.1:5001/check
 
 {
   "messages": [
