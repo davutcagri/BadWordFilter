@@ -6,8 +6,10 @@ assistant.py dosyasında bulunuyor
 
 ## Örnek POST request
 http://127.0.0.1:5001/check
-### Headers:
+
+Headers:
 - Content-Type: application/json
+
 {
   "messages": [
     "örnek mesaj 1,
