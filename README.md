@@ -1,18 +1,45 @@
-## Gerekli Kütüphaneleri Yüklemek
-pip install -r requirements.txt 
+# 🚀 Project Setup Guide
 
-## OPENAI_API_KEY ve ASSISTANT_ID ayarlama
-assistant.py dosyasında bulunuyor
+This project is designed to provide a safe and efficient environment by leveraging OpenAI's API for filtering profanity and hate speech. Follow the steps below to set up and run the application smoothly.
 
-## Örnek POST request
+## 📌 Installing Required Libraries
+
+To install all necessary dependencies, run the following command:
+
+```sh
+pip install -r requirements.txt
+```
+
+## 🔑 Setting Up API Credentials
+
+Make sure to configure your API credentials in the `assistant.py` file:
+
+- `OPENAI_API_KEY`
+- `ASSISTANT_ID`
+
+## 📡 Example POST Request
+
+You can test the API with the following example request:
+
+### 🌍 Endpoint:
+
+```
 http://127.0.0.1:5001/check
+```
 
-Headers:
-- Content-Type: application/json
+### 📄 Headers:
 
+```json
+Content-Type: application/json
+```
+
+### 📩 Request Body:
+
+```json
 {
   "messages": [
-    "örnek mesaj 1,
-    "örnek mesaj 2"
+    "example message 1",
+    "example message 2"
   ]
 }
+```
